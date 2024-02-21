@@ -16,6 +16,20 @@
              <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue">Vue</router-link> 
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
+           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue">Python</router-link> 
+            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+           </li>
+
+           <transition name="fade">
+             <a href="https://www.linkedin.com/in/okereke-pascal-72900724a"><img src="../assets/linkedin1.jpg" alt="" class="w-8"></a>
+           </transition>
+
+           
+           <transition name="fade">
+             <a href="https://twitter.com/delavegar_"><img src="../assets/xtwitter.jpg" alt="" class="w-8"></a>
+           </transition>
+
+
 
          </ul> 
          </router-link>

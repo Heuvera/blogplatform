@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import AppHeader from './components/AppHeader.vue'
-
+import BlogFoot from './components/BlogFoot.vue'
 
 const routes = [
-    { 'path': '/', component: AppHeader}
+    { 'path': '/', component: AppHeader},
+    { 'path': '/blogfoot', component: BlogFoot}
 ];
 
 // create a router instance
