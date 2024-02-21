@@ -21,13 +21,17 @@
            </li>
 
           <!--socials here-->
-           <ul class="flex space-x-4 py-52">
+           <ul class="flex space-x-4 py-40">
 
-            <li><a href="https://www.linkedin.com/in/okereke-pascal-72900724a"><img src="../assets/linkedin1.jpg" alt="" class="w-8">
+            <li>
+              <a href="https://www.linkedin.com/in/okereke-pascal-72900724a" target="_blank">
+                <img src="../assets/linkedin1.jpg" alt="" class="w-8">
             </a>
             </li>
            
-             <li><a href="https://twitter.com/delavegar_"><img src="../assets/xtwitter.jpg" alt="" class="w-8">
+             <li>
+              <a href="https://twitter.com/delavegar_" target="_blank">
+              <img src="../assets/xtwitter.jpg" alt="" class="w-8">
             </a>
             </li>
            
