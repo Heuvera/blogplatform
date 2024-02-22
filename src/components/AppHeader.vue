@@ -7,16 +7,16 @@
           <li class="text-gray-500 relative pl-8"><router-link to="/css-trick">CSS Tricks</router-link>
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/javascript">Javascript</router-link>
+           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/javascript-blog">Javascript</router-link>
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/react">React</router-link> 
+           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/react-blog">React</router-link> 
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
-             <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue">Vue</router-link> 
+             <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue-blog">Vue</router-link> 
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue">Python</router-link> 
+           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/python-blog">Python</router-link> 
             <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
            </li>
 
