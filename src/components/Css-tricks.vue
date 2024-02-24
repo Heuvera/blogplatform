@@ -1,6 +1,6 @@
 <template>
 
-  <div class="text-2xl text-gray-200">CssTricks Blog</div>
+  <div class="text-2xl text-gray-200 font-bold p-2 underline">CssTricks Blog</div>
 
 </template>
 

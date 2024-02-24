@@ -1,5 +1,5 @@
 <template>
-    <div class="text-2xl text-gray-200">Vue Blog</div>
+    <div class="text-2xl text-gray-200 font-bold p-2 underline">Vue Blog</div>
 </template>
 
 <script>

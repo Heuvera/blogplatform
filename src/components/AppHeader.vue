@@ -21,17 +21,12 @@
            </li>
 
           <!--socials here-->
+          
            <ul class="flex space-x-4 py-40">
 
             <li>
               <a href="https://www.linkedin.com/in/okereke-pascal-72900724a" target="_blank">
                 <img src="../assets/linkedin1.jpg" alt="" class="w-8">
-            </a>
-            </li>
-           
-             <li>
-              <a href="https://twitter.com/delavegar_" target="_blank">
-              <img src="../assets/xtwitter.jpg" alt="" class="w-8">
             </a>
             </li>
            
@@ -42,9 +37,9 @@
          </ul> 
          </router-link>
          <nav>
-            <ul class="flex space-x-4 mr-8 py-8">
-               <li class="text-green-200" tabindex="1"><router-link to="/">Home</router-link></li>
-               <li class="text-green-200" tabindex="2"><router-link to="/posts">Posts</router-link></li>
+            <ul class="flex space-x-4 mr-3 py-8">
+               <li class="text-blue-900 font-bold" tabindex="1"><router-link to="/">Home</router-link></li>
+               <li class="text-blue-900 font-bold" tabindex="2"><router-link to="/posts">Posts</router-link></li>
             </ul>    
             
          </nav> 

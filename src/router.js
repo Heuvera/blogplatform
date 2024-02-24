@@ -6,6 +6,7 @@ import JavascriptBlog from "./components/Javascript-blog.vue"
 import ReactBlog from "./components/React-blog.vue"
 import VueBlog from "./components/Vue-blog.vue"
 import PythonBlog from "./components/Python-blog.vue"
+import Post from "./components/Post.vue"
 
 
 const routes = [
@@ -15,7 +16,8 @@ const routes = [
     { 'path': '/javascript-blog', component: JavascriptBlog},
     { 'path': '/react-blog', component: ReactBlog},
     { 'path': '/vue-blog', component: VueBlog}    ,
-    { 'path': '/python-blog', component: PythonBlog}
+    { 'path': '/python-blog', component: PythonBlog},
+    { 'path': '/posts', component: Post}
 ];
 
 // create a router instance
