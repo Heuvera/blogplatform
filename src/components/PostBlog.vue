@@ -1,6 +1,6 @@
 <template>
 
-    <div class="text-2xl text-gray-200 font-bold p-2 underline">Post</div>
+    <div class="text-2xl text-gray-200 font-bold p-2 underline">Posts</div>
   
   </template>
   
