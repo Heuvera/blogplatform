@@ -1,23 +1,22 @@
 <template>
     <div class="container mx-auto flex justify-between text-center absolute top-0 left-0 w-full h-full">
-        <router-link to ="/" class="text-xl font-bold text-center text-blue-900 py-10 ml-8">My Blog
-         <h1 class="text-gray-200 py-6 text-2xl cursor-not-allowed">Hi, I'm Pascal.</h1>
-         <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed" />
-         <ul class="flex flex-col list-none">
-          <li class="text-gray-500 relative pl-8"><router-link to="/css-trick">CSS Tricks</router-link>
-            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+        <router-link to ="/" class="text-xl font-bold text-center text-blue-900 py-10 ml-8">
+         <h1 class="text-gray-200 py-6 text-2xl cursor-not-allowed font-bold">
+           <span class="animate-pulse text-green-700 font-bold text-3xl">Pascal's</span>
+           <br>
+           <span class="animate-bounce text-green-700">Blog</span>
+         </h1>
+         <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
+         <ul class="flex justify-center  list-none">
+          <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10 m-4 pl-8 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/javascript-blog">Javascript</router-link>
-            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/react-blog">React</router-link> 
-            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/react-blog">React</router-link>
            </li>
-             <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/vue-blog">Vue</router-link> 
-            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+             <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/vue-blog">Vue</router-link> 
            </li>
-           <li class="text-gray-500 relative pl-8 font-medium"><router-link to="/python-blog">Python</router-link> 
-            <span class="absolute left-0 top-0 transform -translate-x-full">>></span>
+           <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10 pl-4 m-4 font-medium shadow-blue bg-black"><router-link to="/python-blog">Python</router-link> 
            </li>
 
          </ul> 
@@ -36,6 +35,66 @@
 
 <script> 
 export default {
-   name: 'LandingPage',
+   mounted() {
+      setTimeout(() => {
+         document.querySelector('.animate-border').style.animation = "none";
+      }, 10000); // 10 seconds timeout
+   }
 }
 </script>
+
+<style scoped>
+   @keyframes pulse {
+      0%, 100% {
+         opacity: 1;
+      }
+      50% {
+         opacity: 0.5;
+      }
+   }
+
+   @keyframes bounce {
+      0%, 100% {
+         transform: translateY(0);
+      }
+      50% {
+         transform: translateY(-20px);
+      }
+   }
+
+   .animate-pulse {
+      animation: pulse 2s infinite;
+   }
+
+   .animate-bounce{
+      animation: bounce 2s infinite;
+   }
+
+   .shadow-blue {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.5)
+   }
+
+   @keyframes moveBorder{
+      0% {
+         transform: tranlate(0) translateY(0);
+      }
+      25% {
+         transform: translateX(100%) translateY(0);
+      }
+      50% {
+         transform: translateX(100%) translateY(100%);
+      }
+      75% {
+         transform: translateX(0) translateY(100%);
+      }
+      100% {
+         transform: translateX(0) translateY(0);
+      }
+   }
+
+   .animate-border {
+      animation: moveBorder 5s linear infinite;
+   }
+   
+
+</style>
