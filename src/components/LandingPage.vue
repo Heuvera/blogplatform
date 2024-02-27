@@ -8,15 +8,15 @@
          </h1>
          <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
          <ul class="flex flex-col  list-none">
-          <li class="text-gray-500 relative border border-gray-900 rounded-xl pl-8 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
+          <li class="text-gray-500 relative border border-gray-900 rounded-xl pl-8 p-3 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl  font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-3 font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl font-medium shadow-blue bg-black"><router-link to="/react-blog">React</router-link>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-3 font-medium shadow-blue bg-black"><router-link to="/react-blog">React</router-link>
            </li>
-             <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl  font-medium shadow-blue bg-black"><router-link to="/vue-blog">Vue</router-link> 
+             <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-3  font-medium shadow-blue bg-black"><router-link to="/vue-blog">Vue</router-link> 
            </li>
-           <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10  font-medium shadow-blue bg-black"><router-link to="/python-blog">Python</router-link> 
+           <li class="text-gray-500 relative border border-gray-900 rounded-xl p-4  font-medium shadow-blue bg-black"><router-link to="/python-blog">Python</router-link> 
            </li>
 
          </ul> 
