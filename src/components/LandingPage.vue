@@ -7,7 +7,7 @@
            <span class="animate-bounce text-green-700">Blog</span>
          </h1>
          <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
-         <ul class="flex flex-col m-1 list-none">
+         <ul class="flex flex-col m-4 list-none">
           <li class="text-gray-500 relative border border-gray-900 rounded-xl pl-8 p-3 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
            </li>
            <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-3 font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
