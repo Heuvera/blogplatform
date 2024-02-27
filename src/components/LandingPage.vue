@@ -8,15 +8,15 @@
          </h1>
          <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
          <ul class="flex justify-center  list-none">
-          <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10 m-4 pl-8 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
+          <li class="text-gray-500 relative border border-gray-900 rounded-xl pl-8 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl  font-medium shadow-blue bg-black"><router-link to="/javascript-blog">Javascript</router-link>
            </li>
-           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/react-blog">React</router-link>
+           <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl font-medium shadow-blue bg-black"><router-link to="/react-blog">React</router-link>
            </li>
-             <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl p-10 m-4 font-medium shadow-blue bg-black"><router-link to="/vue-blog">Vue</router-link> 
+             <li class="text-gray-500 relative pl-8 border border-gray-900 rounded-xl  font-medium shadow-blue bg-black"><router-link to="/vue-blog">Vue</router-link> 
            </li>
-           <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10 pl-4 m-4 font-medium shadow-blue bg-black"><router-link to="/python-blog">Python</router-link> 
+           <li class="text-gray-500 relative border border-gray-900 rounded-xl p-10  font-medium shadow-blue bg-black"><router-link to="/python-blog">Python</router-link> 
            </li>
 
          </ul> 
