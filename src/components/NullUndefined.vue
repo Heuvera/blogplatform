@@ -9,6 +9,8 @@
               a variable declared but not defined yet.
               <br>
               I will give examples on these two falsy values.
+              ```bash
+              const myself = null
             </p>
         </div>
         </div>
