@@ -10,7 +10,8 @@
               <br>
               I will give examples on these two falsy values.
               ```bash
-              const myself = null
+              const myself = null;
+              console.log(myself)  
             </p>
         </div>
         </div>
