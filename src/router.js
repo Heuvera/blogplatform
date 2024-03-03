@@ -7,6 +7,11 @@ import ReactBlog from "./components/React-blog.vue"
 import VueBlog from "./components/Vue-blog.vue"
 import PythonBlog from "./components/Python-blog.vue"
 import PostBlog from "./components/PostBlog.vue"
+<<<<<<< HEAD
+=======
+import ReactVite from "./components/ReactVite.vue"
+import NullUndefined from "./components/NullUndefined.vue"
+>>>>>>> cb1d482 (content)
 
 
 const routes = [
@@ -17,7 +22,13 @@ const routes = [
     { 'path': '/react-blog', component: ReactBlog},
     { 'path': '/vue-blog', component: VueBlog}    ,
     { 'path': '/python-blog', component: PythonBlog},
+<<<<<<< HEAD
     { 'path': '/posts', component: PostBlog}
+=======
+    { 'path': '/react-vite-blog', component: ReactVite},
+    { 'path': '/null-undefined-blog', component: NullUndefined},
+    { 'path': '/posts', component: PostBlog},
+>>>>>>> cb1d482 (content)
 ];
 
 // create a router instance

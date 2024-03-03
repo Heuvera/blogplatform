@@ -6,7 +6,11 @@
            <br>
            <span class="animate-bounce text-green-700">Blog</span>
          </h1>
+<<<<<<< HEAD
          <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
+=======
+         <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed" />
+>>>>>>> cb1d482 (content)
          <ul class="flex flex-col list-none">
           <li class="text-gray-500 relative border border-gray-900 rounded-xl pl-8 p-3 m-2 shadow-blue bg-black"><router-link to="/css-trick">CSS Tricks</router-link>
            </li>
@@ -36,9 +40,15 @@
 <script> 
 export default {
    mounted() {
+<<<<<<< HEAD
       setTimeout(() => {
          document.querySelector('.animate-border').style.animation = "none";
       }, 10000); // 10 seconds timeout
+=======
+      //setTimeout(() => {
+         //document.querySelector('.animate-border').style.animation = "none";
+      //}, 10000);  10 seconds timeout
+>>>>>>> cb1d482 (content)
    }
 }
 </script>
@@ -74,6 +84,7 @@ export default {
       box-shadow: 0 0 20px rgba(0, 0, 255, 0.5)
    }
 
+<<<<<<< HEAD
    @keyframes moveBorder{
       0% {
          transform: tranlate(0) translateY(0);
@@ -95,6 +106,8 @@ export default {
    .animate-border {
       animation: moveBorder 5s linear infinite;
    }
+=======
+>>>>>>> cb1d482 (content)
    
 
 </style>

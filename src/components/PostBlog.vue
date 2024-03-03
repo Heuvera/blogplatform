@@ -4,6 +4,7 @@
   
   </template>
   
+<<<<<<< HEAD
   <script>
   
   export default {
@@ -11,3 +12,6 @@
   }
   
   </script>
+=======
+  
+>>>>>>> cb1d482 (content)
