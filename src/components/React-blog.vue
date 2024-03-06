@@ -1,6 +1,9 @@
 <template>
-    <div class="text-2xl text-gray-200 font-bold p-2 mx-auto justify-center px-10 py-2">
+    
+    <div class="flex justify-center mx-auto">
+    <div class="text-2xl text-gray-200 font-bold p-2 py-2">
         <router-link to="/react-vite-blog">React Blog</router-link>
+    </div>
     </div>
 </template>
 
