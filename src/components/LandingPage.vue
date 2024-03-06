@@ -7,7 +7,6 @@
            <span class="animate-bounce text-green-700">Blog</span>
          </h1>
 
-         <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed inset-0 animate-border" />
          <img src="../assets/avatar.jpg" class="w-20  h-auto py-3 cursor-not-allowed" />
 
          <ul class="flex flex-col list-none">

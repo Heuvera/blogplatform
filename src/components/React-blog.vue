@@ -1,5 +1,7 @@
 <template>
-    <div class="text-2xl text-gray-200 font-bold p-2 underline">React Blog</div>
+    <div class="text-2xl text-gray-200 font-bold p-2 underline">React Blog
+        <router-link to="/react-vite-blog"></router-link>
+    </div>
 </template>
 
 
