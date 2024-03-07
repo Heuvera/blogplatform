@@ -27,7 +27,7 @@
          <!--Hamburger menu for mobile devices-->
          <div class="md-hidden">
             <button @click="toggleMenu" class="text-blue-900 font-bold py-4">
-             <img src="../assets/menu-icon" alt="">
+             <img src="../assets/menu-icon" alt="" />
             </button>
 
             <ul v-if="showMenu" class="flex flex-col list-none">
