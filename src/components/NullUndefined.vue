@@ -13,8 +13,7 @@
               </p>
               <pre class="bg-gray-900 text-white p-1 rounded-lg">
                 <code>
-                  <p>
-                    const myself = null; </p>
+                  <p> const myself = null; </p>
                    <p> console.log(myself); </p>
                    <p> // null </p>
                 </code> </pre>
