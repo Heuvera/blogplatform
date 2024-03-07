@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center bg-black min-w-screen min-h-screen">
+    <div class="flex justify-center bg-black min-h-screen min-w-screen">
         <div class="min-w-0 mx-auto m-3">
             <h1 class="text-gray-200 text-2xl font-large">Null vs  Undefined</h1>
             <div class="flex flex-column absolute left-7 m-8">
@@ -26,7 +26,7 @@
 
                 <br>
 
-                <code>
+                <code class="text-white">
                   null == undefined
                   // true 
 
