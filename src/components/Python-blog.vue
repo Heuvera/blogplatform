@@ -1,9 +1,14 @@
 <template>
 
     <div class="flex justify-center mx-auto">
-    <div class="text-2xl text-gray-200 font-bold p-2">
-    <router-link to="">Python Blog</router-link>
-        </div>
+      <h1 class="font-xl text-gray-200 font-bold"></h1>
+      <div class="flex flex-col m-10">
+        <ul class="flex absolute r-8">
+         <li class="text-sm text-gray-200 font-semi">
+          <router-link to=""></router-link>
+        </li>
+        </ul>
+      </div>
     </div>
 </template>
 
