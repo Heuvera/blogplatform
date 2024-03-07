@@ -34,7 +34,7 @@
                   // false 
                 </code>
 
-                <br> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
+                <br class="bg-black h-screen w-screen"> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
                 same type before making the comparison.
 
                 <br> The '===' operator does not perform type coercion. It checks for both value equality and type equality.
