@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto flex justify-between text-center absolute top-0 left-0 w-full h-full">
+    <div class="container mx-auto flex justify-between text-center relative top-0 left-0 w-full h-full">
         <router-link to ="/" class="text-xl font-bold text-center text-blue-900 py-10 ml-8">
          <h1 class="text-gray-200 py-6 text-2xl cursor-not-allowed font-bold">
            <span class="animate-pulse text-green-700 font-bold text-3xl">Pascal's</span>

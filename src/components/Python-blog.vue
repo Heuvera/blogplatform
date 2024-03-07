@@ -1,6 +1,6 @@
 <template>
 
-  <div class="flex flex-col justify-center items-center mx-auto">
+  <div class="flex flex-col relative justify-center items-center mx-auto">
     <h1 class="text-3xl text-gray-200 font-bold mb-12">Python Blog</h1>
     <div class="flex justify-end">
       <ul class="flex flex-col list-none mr-18">
