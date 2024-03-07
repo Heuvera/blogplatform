@@ -2,7 +2,7 @@
 
     <div class="flex justify-center mx-auto">
       <h1 class="font-xl text-gray-200 font-bold">Javascript Blog</h1>
-        <ul class="flex flex-col list-none m-12 absolute l-22">
+        <ul class="flex flex-col list-none m-12 absolute l-8">
          <li class="text-sm text-gray-200 font-semi">
           <router-link to="/null-undefined-blog">Null vs Undefined</router-link>
         </li>
