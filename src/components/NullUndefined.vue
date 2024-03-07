@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center">
+    <div class="flex justify-center w[100px] h[100px]">
         <div class="min-w-0 mx-auto m-3">
             <h1 class="text-gray-200 text-2xl font-large">Null vs  Undefined</h1>
             <div class="flex flex-column absolute left-7 m-8">
@@ -17,7 +17,6 @@
                     console.log(myself);
                     <br>
                     // null
-                    <br>
                     <br>
                 </code>
                 <br>
