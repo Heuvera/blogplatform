@@ -11,61 +11,64 @@
               <p>
               For example,
               </p>
-              <pre class="bg-gray-900 text-white p-4 rounded-lg">
-                <code class="text-white">
-                    <br>
+              <pre class="bg-gray-900 text-white p-2 rounded-md">
+                <code>
                     const myself = null;
-                    <br>
                     console.log(myself);
-                    <br>
                     // null
-                    <br>
                 </code> </pre>
-                <br>
-                <br>
+                
+                <p>
                 The code above is a null, and it is assigned to a variable as a representation of no value.
-                <br> Some developers use null for the business there are trying to solve. it is also Primitive value.
-                <br> Null is not strictly equal to undefined, there are loosely equal.
-                <br>
-                <br> Here is an example,
+                 Some developers use null for the business there are trying to solve. it is also Primitive value.
+                 Null is not strictly equal to undefined, there are loosely equal.
+                </p>
 
-                <br>
+                <p> Here is an example:</p>
 
-                <code class="text-white">
+                <pre class="bg-gray-900 text-white p-2 rounded-md"><code>
                   null == undefined
                   // true 
 
                   null === undefined
                   // false 
-                </code>
+                </code></pre>
 
-                <br> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
+                <p> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
                 same type before making the comparison.
+                </p>
 
-                <br> The '===' operator does not perform type coercion. It checks for both value equality and type equality.
+                <p> The '===' operator does not perform type coercion. It checks for both value equality and type equality.
+                 </p>
 
-                <br> Hence, when you use '==', null and undefined are considered equal because Javascript coerces them to the same type.
-                <br> Null and Undefined are both false, so it evaluates them to 'true'.
-                
-                <br>However, when you use '===', null and undefined are not equal because there are different data types. 
-                <br> null is an object type, while undefined is a primitive type, which evaluates to 'false'.
+                <p> Hence, when you use '==', null and undefined are considered equal because Javascript coerces them to the same type.
+                 Null and Undefined are both false, so it evaluates them to 'true'.
+                </p>
 
-                <br>
+                <p>However, when you use '===', null and undefined are not equal because there are different data types. 
+                 null is an object type, while undefined is a primitive type, which evaluates to 'false'.
 
+                </p>
+
+                <p>
                 The undefined means a variable that has been declared, but the value of the variable has not been declared.
-                <br> For example <br>
+                </p>
+                <p> For example </p>
                 
-                <code class="text-white"> <br>
+                <pre class="bg-gray-900 text-white p-2 rounded-md"> <code>
                    let undefined; <br>
-                   console.log <br>
+                   console.log(undefined);
                    // undefined
-                </code>
+                </code></pre>
 
-                <br>
+                <p>
                 The Null and Undefined are falsy values, use them when necessary.
-                <br>
+                </p>
+
+                <p>
                 Thank you, for your time.I hope you enjoyed it.
-        
+                </p>
+                
         </div>
         </div>
     </div>
