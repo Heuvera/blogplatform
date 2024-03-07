@@ -9,10 +9,13 @@
               a variable declared but not defined yet.
               <br>
               For example,
-
+              <br>
                 <code class="text-white">
+                    <br>
                     const myself = null;
+                    <br>
                     console.log(myself);
+                    <br>
                     // null
                 </code>
         </p>
