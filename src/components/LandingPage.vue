@@ -27,7 +27,7 @@
          <!--Hamburger menu for mobile devices-->
          <div class="md-hidden">
             <button @click="toggleMenu" class="text-blue-900 font-bold py-4">
-             <img src="../assets/menu-icon" alt="" />
+               <img src="../assets/hamburger-icon.png" alt="">      
             </button>
 
             <ul v-if="showMenu" class="flex flex-col list-none">
@@ -95,28 +95,5 @@ export default {
       box-shadow: 0 0 20px rgba(0, 0, 255, 0.5)
    }
 
-
-   @keyframes moveBorder{
-      0% {
-         transform: tranlate(0) translateY(0);
-      }
-      25% {
-         transform: translateX(100%) translateY(0);
-      }
-      50% {
-         transform: translateX(100%) translateY(100%);
-      }
-      75% {
-         transform: translateX(0) translateY(100%);
-      }
-      100% {
-         transform: translateX(0) translateY(0);
-      }
-   }
-
-   .animate-border {
-      animation: moveBorder 5s linear infinite;
-   }
-   
 
 </style>
