@@ -7,8 +7,17 @@
               In Javascript, Null and Undefined are special values that indicates the absence of a value
               or object, So what do they do? Null is an assigned value which means nothing and Undefined means
               a variable declared but not defined yet.
-
+              <br>
+              For example,
             </p>
+
+            <pre class="text-gray-200 text-sm bg-gray-800 p-4 rounded-lg">
+                <code>
+                    const myself = null;
+                    console.log(myself);
+                    // null
+                </code>
+            </pre>
         </div>
         </div>
     </div>
