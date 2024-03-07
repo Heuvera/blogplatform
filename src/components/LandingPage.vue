@@ -23,7 +23,22 @@
 
          </ul> 
          </router-link>
-         <nav>
+
+         <!--Hamburger menu for mobile devices-->
+         <div class="md-hidden">
+            <button @click="toggleMenu" class="text-blue-900 font-bold">
+            -
+            -
+            -
+            </button>
+
+            <ul v-if="showMenu" class="flex flex-col list-none">
+             <li class="text-blue-900 font-bold" tabindex="1"><router-link to="/">Home</router-link></li>
+             <li class="text-blue-900 font-bold" tabindex="2"><router-link to="/posts">Posts</router-link></li>
+            </ul>
+         </div>
+
+         <nav class="hidden md:block">
             <ul class="flex space-x-4 mt-5 py-2">
                <li class="text-blue-900 font-bold" tabindex="1"><router-link to="/">Home</router-link></li>
                <li class="text-blue-900 font-bold" tabindex="2"><router-link to="/posts">Posts</router-link></li>
@@ -36,16 +51,19 @@
 
 
 <script> 
-export default {
-   mounted() {
-      setTimeout(() => {
-         document.querySelector('.animate-border').style.animation = "none";
-      }, 10000); // 10 seconds timeout
-      //setTimeout(() => {
-         //document.querySelector('.animate-border').style.animation = "none";
-      //}, 10000);  10 seconds timeout
+export default {    
+      data() {
+         return {
+            showMenu: false
+         };
+      },
+
+   methods: {
+      toggleMenu() {
+      this.showMenu = !this.showMenu;
+   },
    }
-}
+   };
 </script>
 
 <style scoped>
