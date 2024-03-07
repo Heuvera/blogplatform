@@ -1,7 +1,7 @@
 <template>
 
     <div class="flex flex-col justify-center items-center mx-auto">
-      <h1 class="text-xl text-gray-200 font-bold mb-12">Javascript Blog</h1>
+      <h1 class="text-3xl text-gray-200 font-bold mb-12">Javascript Blog</h1>
       <div class="flex justify-end">
         <ul class="flex flex-col list-none mr-12">
          <li class="text-sm text-gray-200 font-semi mb-4">

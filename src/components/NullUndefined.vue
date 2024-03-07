@@ -13,9 +13,11 @@
               </p>
               <pre class="bg-gray-900 text-white p-1 rounded-lg">
                 <code class="mr-4">
+                  <p>
                     const myself = null;
                     console.log(myself);
                     // null
+                    </p>
                 </code> </pre>
                 
                 <p>
@@ -27,11 +29,12 @@
                 <p> Here is an example:</p>
 
                 <pre class="bg-gray-900 text-white p-1 rounded-lg"><code>
-                  null == undefined
+                 <p> null == undefined
                   // true 
 
                   null === undefined
-                  // false 
+                  // false
+                 </p> 
                 </code></pre>
 
                 <p> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
@@ -56,9 +59,9 @@
                 <p> For example </p>
                 
                 <pre class="bg-gray-900 text-white p-1 rounded-lg"> <code>
-                   let undefined; <br>
+                  <p> let undefined;
                    console.log(undefined);
-                   // undefined
+                   // undefined </p>
                 </code></pre>
 
                 <p>
