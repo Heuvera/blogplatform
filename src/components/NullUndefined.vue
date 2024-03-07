@@ -11,7 +11,7 @@
               For example,
             </p>
 
-            <pre class="text-gray-200 text-sm rounded-sm w-10 h-8">
+            <pre class="text-gray-200 text-sm bg-gray-100 rounded-sm w-10 h-8">
                 <code>
                     const myself = null;
                     console.log(myself);
