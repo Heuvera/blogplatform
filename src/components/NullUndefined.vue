@@ -9,15 +9,12 @@
               a variable declared but not defined yet.
               <br>
               For example,
-    
 
-            <pre class="text-gray-200 text-sm bg-gray-800 rounded-sm w-10 h-8">
-                <code>
+                <code class="text-white">
                     const myself = null;
                     console.log(myself);
                     // null
                 </code>
-            </pre>
         </p>
         </div>
         </div>
