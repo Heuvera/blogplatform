@@ -1,15 +1,17 @@
 <template>
-    <div class="flex justify-center absolute min-h-screen min-w-screen">
-        <div class="min-w-0 mx-auto m-3 flex-shrink-0">
-            <h1 class="text-gray-200 text-2xl font-large">Null vs  Undefined</h1>
-            <div class="flex flex-column absolute left-7 m-8">
-            <p class="text-gray-200 text-lg font-sm">
+    <div class="flex justify-center items-center bg-black min-h-screen min-w-screen">
+        <div class="max-w-lg mx-auto p-8">
+            <h1 class="text-white text-3xl font-bold mb-8 text-center">Null vs  Undefined</h1>
+            <div class="text-gray-200 text-lg font-sm">
+            <p>
               In Javascript, Null and Undefined are special values that indicates the absence of a value
               or object, So what do they do? Null is an assigned value which means nothing and Undefined means
               a variable declared but not defined yet.
-              <br>
+              </p>
+              <p>
               For example,
-              <br>
+              </p>
+              <pre class="bg-gray-900 text-white p-4 rounded-lg">
                 <code class="text-white">
                     <br>
                     const myself = null;
@@ -18,7 +20,7 @@
                     <br>
                     // null
                     <br>
-                </code>
+                </code> </pre>
                 <br>
                 <br>
                 The code above is a null, and it is assigned to a variable as a representation of no value.
@@ -63,7 +65,7 @@
                 The Null and Undefined are falsy values, use them when necessary.
                 <br>
                 Thank you, for your time.I hope you enjoyed it.
-        </p>
+        
         </div>
         </div>
     </div>
