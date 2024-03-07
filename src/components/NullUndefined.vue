@@ -11,8 +11,8 @@
               <p>
               For example,
               </p>
-              <pre class="bg-gray-900 text-white p-1 rounded-sm">
-                <code>
+              <pre class="bg-gray-900 text-white p-1 rounded-lg">
+                <code class="mr-4">
                     const myself = null;
                     console.log(myself);
                     // null
@@ -26,7 +26,7 @@
 
                 <p> Here is an example:</p>
 
-                <pre class="bg-gray-900 text-white p-1 rounded-sm"><code>
+                <pre class="bg-gray-900 text-white p-1 rounded-lg"><code>
                   null == undefined
                   // true 
 
@@ -55,7 +55,7 @@
                 </p>
                 <p> For example </p>
                 
-                <pre class="bg-gray-900 text-white p-1 rounded-sm"> <code>
+                <pre class="bg-gray-900 text-white p-1 rounded-lg"> <code>
                    let undefined; <br>
                    console.log(undefined);
                    // undefined
