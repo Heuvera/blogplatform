@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center bg-black min-h-screen min-w-screen">
+    <div class="flex justify-center items-center relative bg-black min-h-screen min-w-screen">
         <div class="max-w-md mx-auto p-8">
             <h1 class="text-white text-3xl font-bold mb-8 text-center">Null vs  Undefined</h1>
             <div class="text-gray-200 text-lg font-sm">
@@ -12,12 +12,11 @@
               For example,
               </p>
               <pre class="bg-gray-900 text-white p-1 rounded-lg">
-                <code class="mr-4">
+                <code>
                   <p>
-                    const myself = null;
-                    console.log(myself);
-                    // null
-                    </p>
+                    const myself = null; </p>
+                   <p> console.log(myself); </p>
+                   <p> // null </p>
                 </code> </pre>
                 
                 <p>
@@ -29,12 +28,12 @@
                 <p> Here is an example:</p>
 
                 <pre class="bg-gray-900 text-white p-1 rounded-lg"><code>
-                 <p> null == undefined
-                  // true 
+                 <p> null == undefined </p>
+                  <p>// true </p>
 
-                  null === undefined
-                  // false
-                 </p> 
+                 <p>null === undefined </p>
+                  <p>// false </p>
+                 
                 </code></pre>
 
                 <p> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
@@ -59,9 +58,9 @@
                 <p> For example </p>
                 
                 <pre class="bg-gray-900 text-white p-1 rounded-lg"> <code>
-                  <p> let undefined;
-                   console.log(undefined);
-                   // undefined </p>
+                  <p> let undefined; </p>
+                  <p> console.log(undefined);</p>
+                  <p> // undefined </p>
                 </code></pre>
 
                 <p>
