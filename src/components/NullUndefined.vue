@@ -26,7 +26,7 @@
 
                 <br>
 
-                <code class="text-white">
+                <code class="text-white bg-black min-h-screen min-w-screen">
                   null == undefined
                   // true 
 
