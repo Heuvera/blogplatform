@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center bg-black h-screen w-screen">
+    <div class="flex justify-center">
         <div class="min-w-0 mx-auto m-3">
             <h1 class="text-gray-200 text-2xl font-large">Null vs  Undefined</h1>
             <div class="flex flex-column absolute left-7 m-8">
@@ -17,11 +17,15 @@
                     console.log(myself);
                     <br>
                     // null
+                    <br>
+                    <br>
                 </code>
+                <br>
                 <br>
                 The code above is a null, and it is assigned to a variable as a representation of no value.
                 <br> Some developers use null for the business there are trying to solve. it is also Primitive value.
                 <br> Null is not strictly equal to undefined, there are loosely equal.
+                <br>
                 <br> Here is an example,
 
                 <br>
@@ -34,7 +38,7 @@
                   // false 
                 </code>
 
-                <br class="bg-black h-screen w-screen"> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
+                <br> First off, the '==' operator performs type coercion before comparing values. That means javascript converts them to the 
                 same type before making the comparison.
 
                 <br> The '===' operator does not perform type coercion. It checks for both value equality and type equality.
