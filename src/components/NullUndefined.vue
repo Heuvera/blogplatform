@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center w[100px] h[100px]">
-        <div class="min-w-0 mx-auto m-3">
+    <div class="flex justify-center absolute min-h-screen min-w-screen">
+        <div class="min-w-0 mx-auto m-3 flex-shrink-0">
             <h1 class="text-gray-200 text-2xl font-large">Null vs  Undefined</h1>
             <div class="flex flex-column absolute left-7 m-8">
             <p class="text-gray-200 text-lg font-sm">
