@@ -1,17 +1,19 @@
 <template>
 
-    <div class="flex justify-center mx-auto">
-      <h1 class="font-xl text-gray-200 font-bold">Javascript Blog</h1>
-        <ul class="flex flex-col list-none m-12 mx-auto">
-         <li class="text-sm text-gray-200 font-semi">
+    <div class="flex flex-col justify-center items-center mx-auto">
+      <h1 class="text-xl text-gray-200 font-bold mb-12">Javascript Blog</h1>
+      <div class="flex justify-end">
+        <ul class="flex flex-col list-none mr-12">
+         <li class="text-sm text-gray-200 font-semi mb-4">
           <router-link to="/null-undefined-blog">Null vs Undefined</router-link>
         </li>
 
         <br>
-        <li class="text-sm text-gray-200 font-semi">
+        <li class="text-sm text-gray-200 font-semi mb-4">
           <router-link to="">Keyboard Accessibility</router-link>
         </li>
         </ul>
+        </div>
       </div>
 </template>
 

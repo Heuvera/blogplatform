@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center items-center bg-black min-h-screen min-w-screen">
-        <div class="max-w-lg mx-auto p-8">
+        <div class="max-w-md mx-auto p-8">
             <h1 class="text-white text-3xl font-bold mb-8 text-center">Null vs  Undefined</h1>
             <div class="text-gray-200 text-lg font-sm">
             <p>
@@ -11,7 +11,7 @@
               <p>
               For example,
               </p>
-              <pre class="bg-gray-900 text-white p-2 rounded-md">
+              <pre class="bg-gray-900 text-white p-1 rounded-sm">
                 <code>
                     const myself = null;
                     console.log(myself);
@@ -26,7 +26,7 @@
 
                 <p> Here is an example:</p>
 
-                <pre class="bg-gray-900 text-white p-2 rounded-md"><code>
+                <pre class="bg-gray-900 text-white p-1 rounded-sm"><code>
                   null == undefined
                   // true 
 
@@ -55,7 +55,7 @@
                 </p>
                 <p> For example </p>
                 
-                <pre class="bg-gray-900 text-white p-2 rounded-md"> <code>
+                <pre class="bg-gray-900 text-white p-1 rounded-sm"> <code>
                    let undefined; <br>
                    console.log(undefined);
                    // undefined
@@ -68,7 +68,7 @@
                 <p>
                 Thank you, for your time.I hope you enjoyed it.
                 </p>
-                
+
         </div>
         </div>
     </div>
