@@ -9,6 +9,7 @@
                 I will give useful steps on how to setup a React Project with Vite.
                 <br>
                 
+                <br>
                 First off, Vite is a French word and it means "quickly." Vite is faster but has
                 all the features CRA has. To setup your React project with vite correctly,
                 kindly follow the steps below.

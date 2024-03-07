@@ -26,7 +26,7 @@
 
                 <br>
 
-                <code class="text-white">
+                <code>
                   null == undefined
                   // true 
 
