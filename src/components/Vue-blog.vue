@@ -1,9 +1,9 @@
 <template>
 
     <div class="flex flex-col justify-center relative items-center mx-auto">
-      <h1 class="text-3xl text-gray-200 font-bold">Vue Blog</h1>
+      <h1 class="text-3xl text-gray-200 font-bold mb-12">Vue Blog</h1>
       <div class="flex justify-end">
-        <ul class="flex flex-col list-none mr-14">
+        <ul class="flex flex-col list-none mx-16">
          <li class="text-sm text-gray-200 font-semi mb-4">
           <router-link to="">Multi-word Error in Vue</router-link>
         </li>
