@@ -25,7 +25,7 @@
          </router-link>
 
          <!--Hamburger menu for mobile devices-->
-         <div class="md:hidden">
+         <div class="md:hidden relative">
             <button @click="toggleMenu" class="text-blue-900 font-bold py-1">
                <img src="../assets/hamburger-menu-svgrepo-com.svg" class="w-12 h-10 m-1" alt="">      
             </button>
