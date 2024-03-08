@@ -30,7 +30,7 @@
                <img src="../assets/hamburger-menu-svgrepo-com.svg" class="w-12 h-10 m-1" alt="">      
             </button>
 
-            <ul v-if="showMenu" class="flex flex-col list-none">
+            <ul v-if="showMenu" class="flex flex-col list-none absolute top-0 left-0 mt-16">
              <li class="text-blue-900 font-bold" tabindex="1"><router-link to="/">Home</router-link></li>
              <li class="text-blue-900 font-bold" tabindex="2"><router-link to="/posts">Posts</router-link></li>
             </ul>
@@ -60,6 +60,17 @@ export default {
       toggleMenu() {
       this.showMenu = !this.showMenu;
    },
+   closeMenu(event) {
+      if(!event.target.closest(".md:hiddden")) {
+         this.showmenu = false;
+      }
+   }
+   },
+   mounted() {
+      document.body.addEventListener("click", this.closeMenu);
+   },
+   beforeDestroy() {
+      document.body.removeEventListener("click", this.closeMenu);
    }
    };
 </script>
