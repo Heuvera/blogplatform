@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center relative bg-black max-h-screen max-w-screen">
+    <div class="flex justify-center items-center bg-black min-h-screen min-w-screen">
         <div class="max-w-md mx-auto p-8">
             <h1 class="text-white text-3xl font-bold mb-8 text-center">Null vs  Undefined</h1>
             <div class="text-gray-200 text-lg font-sm">
