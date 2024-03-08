@@ -2,8 +2,8 @@
 
   <div class="flex flex-col justify-center items-center relative mx-auto">
     <h1 class="text-3xl text-gray-200 font-bold mb-12">CSS Blog</h1>
-   <div class="flex justify-end mr-">
-    <ul class="flex flex-col list-none mr-auto">
+   <div class="flex justify-end mr-96">
+    <ul class="flex flex-col list-none">
        <li class="text-sm text-gray-200 font-semi mb-4">
         <router-link to="">CSS Animations and Transitions</router-link>
       </li>
